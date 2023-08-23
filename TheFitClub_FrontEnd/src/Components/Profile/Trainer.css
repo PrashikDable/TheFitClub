@@ -1,0 +1,48 @@
+.dashboard {
+    text-align:left;
+    padding: 60px;
+    margin-top: 10px;
+    padding-left:150px;
+    color: #fff;
+    border: none;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left:55px;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    color: #333;
+  }
+  
+  /* .button {
+    margin-top: 10px; */
+    /* width: 200px; Fixed width for all buttons */
+    /* padding: 10px 0;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  } */
+  .link-button {
+    display: inline-block;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: var(--orange);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* .dashboard-button:hover {
+    background-color: blue;
+  } */
